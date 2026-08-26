@@ -98,7 +98,7 @@ information, subject marks, average marks, and academic results.
 
 **Status:** ✅ Completed
 
-👉 [View Student Management System](./student-management-system/)
+👉 [View Student Management System](](https://github.com/husnianmahmood/python_oop_projects/tree/main/student_management_system))
 
 ---
 
