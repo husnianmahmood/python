@@ -1,0 +1,15 @@
+class Employee:
+  def work(self):
+    print("Perform some special act")
+class Developer(Employee):
+  def work(self):
+    print("Develop the website")
+class Designer(Employee):
+  def work(self):
+    print("Making the ad creative")
+class Manager(Employee):
+  def work(self):
+    print("Manage everything")
+workers = [Employee(), Developer(), Designer(), Manager()]
+for worker in workers:
+  worker.work()
