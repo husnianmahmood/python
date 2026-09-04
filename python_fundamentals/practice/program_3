@@ -1,1 +1,20 @@
+class Animal():
+  def __init__(self, name:str, age:int):
+    self.name= name
+    self.age= age
+
+  def eat(self):
+    print("he is eating")
+class Dog(Animal):
+  def bark(self):
+    print("dog is barking")
+  def display(self):
+    print(f"Name is {self.name} and the age is {self.age}")
+
+dog1 = Dog("sofia", 4)
+dog1.display()
+dog1.bark()
+dog1.eat()
+
+
 
