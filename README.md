@@ -132,7 +132,7 @@ The `python_fundamentals/` folder is where the foundation is laid — the buildi
   - Movie Ticket Management System
   - Student Management System
 
-👉 [View Python Fundamentals]((https://github.com/husnianmahmood/python/tree/main/python_fundamentals))
+👉 [View Python Fundamentals](https://github.com/husnianmahmood/python/tree/main/python_fundamentals).
 
 ---
 
