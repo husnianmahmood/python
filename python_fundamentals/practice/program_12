@@ -1,0 +1,22 @@
+class Student:
+  def __init__(self, name:str, marks:int):
+    self.name:str = name
+    self.__marks:int = marks
+  @property
+  def marks(self):
+    return self.__marks
+  @marks.setter
+  def marks(self, new_marks:int):
+    if new_marks >= 0 and new_marks <= 100:
+      self.__marks = new_marks
+    else:
+      print("Invalid marks!")
+
+
+s1 = Student("husnain", 57)
+print(s1.marks)
+print(s1.name)
+s1.marks = 90
+print(s1.marks)
+s1.marks = 150
+print(s1.marks)
