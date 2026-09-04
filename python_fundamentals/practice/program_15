@@ -1,0 +1,98 @@
+class Person:
+  def __init__(self, name: str, age:int):
+    self.name: str = name
+    self.age: int = age
+  def show_details(self):
+    print(f"{self.name}")
+    print(f"{self.age}")
+  def introduction(self):
+    print(f"Hi, I am {self.name}")
+
+
+class Student(Person):
+  def __init__(self,name:str, age:int,  grade, marks:float, attendance:float):
+    super().__init__(name, age)
+    self.grade = grade
+    self.__marksmarks = marks
+    self.__attendance = attendance
+  @property
+  def marks(self):
+    return self.__marks
+  @marks.setter
+  def marks(self, new_marks):
+    if 0 <= new_marks >=100:
+      self.__marks = new_marks
+    else:
+      print("Invalid Marks")
+  @property
+  def attendance(self):
+    return self.__attendance
+  @attendance.setter
+  def attendace(self, new_attendance):
+    if 0 <= new_attendace >= 100:
+      self.__attendance = new_attendance
+    else:
+      print("Invalid Attendance")
+  def study(self):
+    print(f"{self.name} is studying Python.")
+  def introduction(self):
+    print(f"Hi, I am {self.name}")
+    print(f"I am a student of grade {self.grade}")
+
+class Teacher(Person):
+  def __init__(self,name, age, subject: str, salary: int, experience: int):
+    super().__init__(name, age)
+    self.subject:str = subject
+    self.salary:int = salary
+    self.experience:int = experience
+
+  def teach(self):
+    print(f"{self.name} is teaching Python.")
+  def check_assignment(self):
+    print("Assignment checked successfully")
+  def introduction(self):
+    print(f"Hi, I am {self.name}")
+    print(f"My subject is {self.subject}")
+class Principal(Person):
+  def __init__(self,name, age, office:str, year_of_experience:int):
+    super().__init__(name, age)
+    self.office:str = office
+    self.year_of_experience:int = year_of_experience
+
+  def manage(self):
+    print(f"{self.name} is managing the school")
+
+  def announce_holiday(self):
+    print("Tommorow is holiday")
+  def introduction(self):
+    print(f"Hi, I am {self.name}")
+    print(f"I am managing this School")
+
+
+student1 = Student("Husanin", 18, "A", 78, 78.5)
+student2 = Student("Ali", 19, "A-", 89, 95.5)
+teacher1 = Teacher("Ahmad", 30, "Math", 25000, 5)
+teacher2 = Teacher("Usman", 28, "Stats", 23000, 4)
+principal1 = Principal("Hamza", 35, "Lahore", 15)
+
+
+student1.show_details()
+print()
+teacher1.show_details()
+print()
+principal1.show_details()
+print()
+student1.study()
+print()
+teacher1.teach()
+teacher1.check_assignment()
+print()
+principal1.manage()
+principal1.announce_holiday()
+print()
+
+peoples = [student1, student2, teacher1, teacher2, principal1]
+
+for people in peoples:
+  people.introduction()
+  print("-"*30)
