@@ -132,7 +132,7 @@ The `python_fundamentals/` folder is where the foundation is laid — the buildi
   - Movie Ticket Management System
   - Student Management System
 
-👉 [View Python Fundamentals](./python_fundamentals/README.md)
+👉 [View Python Fundamentals]((https://github.com/husnianmahmood/python/tree/main/python_fundamentals))
 
 ---
 
@@ -157,7 +157,7 @@ The `oop/` folder builds on the fundamentals, introducing how to design software
 **Featured project:**
 - 🎓 **Student Management System** — a console application for managing student profiles, subject marks, averages, and PASS/FAIL results.
 
-👉 [View OOP Module](./oop/README.md)
+👉 [View OOP Module]((https://github.com/husnianmahmood/python/tree/main/oop/student_management_system))
 
 ---
 
@@ -171,7 +171,7 @@ This is the newest chapter in the journey. The `numpy/` folder currently holds s
 
 This section will keep expanding as practice turns into full projects.
 
-👉 [View NumPy Practice](./numpy/README.md)
+👉 [View NumPy Practice]((https://github.com/husnianmahmood/python/tree/main/numpy))
 
 ---
 
