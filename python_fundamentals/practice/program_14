@@ -1,0 +1,16 @@
+class Vehicle:
+  def __init__(self, brand:str):
+    self.brand = brand
+  def start(self):
+    print("Vehicle is starting")
+class Car(Vehicle):
+  def __init__(self, brand ,model):
+    super().__init__(brand)
+    self.model = model
+  def start(self):
+    super().start()
+    print("Car engine starting")
+car = Car("toyota", "corolla")
+print(car.brand)
+print(car.model)
+car.start()
