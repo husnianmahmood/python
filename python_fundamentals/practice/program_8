@@ -1,0 +1,14 @@
+class Auto:
+  def start(self):
+    print("Start by some action")
+
+class Bike(Auto):
+  def start(self):
+    print("Start by kick")
+class Car(Auto):
+  def start(self):
+    print("Start by using keys")
+products = [Bike(), Car(), Auto()]
+for item in products:
+  item.start()
+
