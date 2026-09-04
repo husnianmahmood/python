@@ -1,0 +1,37 @@
+class Person:
+  def __init__(self, name:str, age:int):
+    self.name = name
+    self.age = age
+  def show_details(self):
+    print(f"Name: {self.name}")
+    print(f"Age: {self.age}")
+class Student(Person):
+  def __init__(self,name,age, grades):
+    super().__init__(name, age)
+    self.grades = grades
+  def study(self):
+    print(f"{self.name} is studying python")
+  def show_details(self):
+    super().show_details()
+    print(f"Grade: {self.grades}")
+class Teacher(Person):
+  def __init__(self,name, age, subject):
+    super().__init__(name, age)
+    self.subject = subject
+  def teach(self):
+    print(f"{self.name} is teaching python")
+  def show_details(self):
+        super().show_details()
+        print(f"Subject: {self.subject}")
+
+
+
+student = Student("Ali", 20, "A")
+teacher = Teacher("Ahmad", 35, "Mathematics")
+print("===== Student =====")
+student.show_details()
+student.study()
+print()
+print("===== Teacher =====")
+teacher.show_details()
+teacher.teach()
