@@ -93,8 +93,10 @@ python/
 │   │   │   └── main.py
 │   │   └── day3/
 │   │       └── main.py
-│   └── projects/
-│
+│   └── projects/                           # NumPy-based projects
+│       └── finance_analyzer/               # Financial Data Analysis project
+│           ├── README.md                   # Project details & setup guide
+│           └── main.py                     # Main execution script
 ├── .gitignore
 └── README.md
 ```
