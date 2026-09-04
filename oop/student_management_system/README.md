@@ -105,13 +105,9 @@ information, subject marks, average marks, and academic results.
 ## 📁 Repository Structure
 
 ```text
-python-oop-projects/
-│
-├── .gitignore
-├── README.md
-│
-├── student-management-system/
-│   ├── README.md
-│   └── main.py
-│
-└── ...
+python/
+└── oop/
+    ├── README.md                          # Repository documentation
+    └── student_management_system/         # Student Management System project
+        ├── README.md                      # Project details & documentation
+        └── main.py                        # Source code
