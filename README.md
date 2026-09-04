@@ -11,17 +11,9 @@
 [![Data Science](https://img.shields.io/badge/Next_Up-Data%20Science-FF6F00?style=for-the-badge&logo=numpy&logoColor=white)](#-data-science-in-progress)
 [![Status](https://img.shields.io/badge/Status-Actively%20Learning-orange?style=for-the-badge)](#-learning-progress)
 
-[Welcome](#-welcome) •
-[Overview](#-overview) •
-[Repository Structure](#-repository-structure) •
-[Python Fundamentals](#-python-fundamentals) •
-[OOP Module](#-object-oriented-programming-oop) •
-[Data Science](#-data-science-in-progress) •
-[Get in Touch](#-get-in-touch)
+</div>
 
 ---
-
-</div>
 
 ## 👋 Welcome
 
@@ -31,22 +23,83 @@ If you're a recruiter or fellow developer reviewing my profile: this repo is mea
 
 ---
 
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Repository Structure](#-repository-structure)
+- [How This Repo Is Organized](#-how-this-repo-is-organized)
+- [Python Fundamentals](#-python-fundamentals)
+- [Object-Oriented Programming (OOP)](#-object-oriented-programming-oop)
+- [Data Science (In Progress)](#-data-science-in-progress)
+- [Learning Progress](#-learning-progress)
+- [Future Improvements](#-future-improvements)
+- [Get in Touch](#-get-in-touch)
+
+---
+
 ## 📖 Overview
 
 This repository is a structured, continuously growing record of my Python learning path. It's organized into clear stages that mirror how I've actually learned the language:
 
-1. **Python Fundamentals** — syntax, functions, logic, sequential practice, and beginner mini-projects.
-2. **Object-Oriented Programming (OOP)** — classes, objects, abstraction, encapsulation, and real-world console applications.
-3. **Data Science** — NumPy arrays, vectorized computations, statistical analytics, and financial project tools.
+1. **Python Fundamentals** — syntax, functions, logic, and beginner practice programs.
+2. **Object-Oriented Programming (OOP)** — classes, objects, and real-world console applications.
+3. **Data Science (in progress)** — NumPy, Pandas, and related libraries.
 
 The goal of this repository is to improve:
 
-- Python programming fundamentals & syntax fluency
-- Object-Oriented Programming & software design patterns
+- Python programming fundamentals
+- Object-Oriented Programming
 - Logical thinking & problem-solving
 - Code organization & reusable design
 - Data analysis skills (NumPy, Pandas)
 - Git and GitHub workflow
+
+---
+
+## 📂 Repository Structure
+
+```text
+python/
+│
+├── python_fundamentals/
+│   ├── README.md                           # Overview of fundamentals
+│   ├── practice/                           # Sequential core practice programs
+│   │   ├── program_1.py
+│   │   ├── program_2.py
+│   │   └── ...
+│   └── projects/                           # Fundamentals mini-projects
+│       ├── bank_managment_system/
+│       │   ├── README.md
+│       │   └── main.py
+│       ├── movie_ticket_managment_system/
+│       │   ├── README.md
+│       │   └── main.py
+│       └── student_managment_system/
+│           ├── README.md
+│           └── main.py
+│
+├── oop/
+│   ├── README.md                           # Overview of OOP concepts
+│   └── student_management_system/
+│       ├── README.md
+│       └── main.py
+│
+├── numpy/
+│   ├── README.md                           # Overview of NumPy practice
+│   ├── practice/                           # Daily structured practice
+│   │   ├── day1/
+│   │   │   └── main.py
+│   │   ├── day2/
+│   │   │   └── main.py
+│   │   └── day3/
+│   │       └── main.py
+│   └── projects/                           # NumPy-based projects
+│       └── finance_analyzer/               # Financial Data Analysis project
+│           ├── README.md                   # Project details & setup guide
+│           └── main.py                     # Main execution script
+├── .gitignore
+└── README.md
+```
 
 ---
 
@@ -58,51 +111,94 @@ This root README gives you the big picture. For the specifics — what a program
 
 | Level | What you'll find there |
 |---|---|
-| **Root `README.md` (this file)** | The overall journey, structure, and navigation |
-| **Module `README.md`** (e.g., `python_fundamentals/README.md`) | What that topic covers and why it matters |
-| **Program/Project `README.md`** (e.g., `numpy/projects/finance_analyzer/README.md`) | Purpose, features, architecture, and concepts for that specific file |
+| Root `README.md` (this file) | The overall journey, structure, and navigation |
+| Module `README.md` (e.g. `oop/README.md`) | What that topic covers and why it matters |
+| Program/Project `README.md` | Purpose, features, and concepts for that specific file |
 
 ---
 
-## 📂 Repository Structure
+## 🧮 Python Fundamentals
 
-```text
-python/
-│
-├── python_fundamentals/                     # Core language track
-│   ├── README.md                            # Overview of fundamentals & OOP track
-│   ├── practice/                            # Sequential core practice programs (1-15)
-│   │   ├── README.md                        # Sequential practice documentation
-│   │   ├── program_1.py
-│   │   ├── ...
-│   │   ├── program_10.py                    # Encapsulation & private attributes
-│   │   ├── program_11.py                    # Custom setter validation logic
-│   │   └── program_12.py                    # Refactored @property decorators
-│   └── projects/                            # Fundamentals mini-projects
-│       ├── README.md                        # Mini-projects directory overview
-│       ├── bank_managment_system/           # Banking system (ABC, OOP)
-│       │   ├── README.md
-│       │   └── main.py
-│       ├── movie_ticket_managment_system/   # Real-time ticket booking system
-│       │   ├── README.md
-│       │   └── main.py
-│       └── student_managment_system/        # Interactive grade manager app
-│           ├── README.md
-│           └── main.py
-│
-├── oop/                                     # Specialized Object-Oriented track
-│   ├── README.md                            # Overview of OOP concepts
-│   └── student_management_system/           # Advanced OOP Student System
-│       ├── README.md
-│       └── main.py
-│
-├── numpy/                                   # Data Science & Numerical Computing
-│   ├── README.md                            # Combined NumPy practice & project guide
-│   ├── practice/                            # Daily structured NumPy practice
-│   │   ├── README.md                        # Practice modules documentation (Days 1-3)
-│   │   ├── day1/
-│   │   │   └── main.py                      # Array creation, metadata & slicing
-│   │   ├── day2/
-│   │   │   └── main.py                      # Array generators & random sampling
-│   │   └── day3/
-│   │       └── main.
+The `python_fundamentals/` folder is where the foundation is laid — the building blocks everything else in this repo relies on.
+
+**Covers:**
+- Variables, data types, and operators
+- Conditionals and loops
+- **Functions** — defining, calling, parameters, return values, scope
+- Lists, dictionaries, tuples, and sets
+- String manipulation
+- Basic error handling
+- Sequential practice programs (`practice/`), numbered and building on each other
+- Beginner mini-projects (`projects/`) that apply fundamentals to real scenarios:
+  - Bank Management System
+  - Movie Ticket Management System
+  - Student Management System
+
+👉 [View Python Fundamentals](https://github.com/husnianmahmood/python/tree/main/python_fundamentals).
+
+---
+
+## 🧠 Object-Oriented Programming (OOP)
+
+The `oop/` folder builds on the fundamentals, introducing how to design software using classes and objects rather than plain procedural scripts.
+
+**Covers (introduced progressively):**
+- Classes & Objects
+- Constructors (`__init__`)
+- Instance attributes & `self`
+- Methods
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Composition
+- Exception handling
+- File handling
+- Testing & clean code practices
+
+**Featured project:**
+- 🎓 **Student Management System** — a console application for managing student profiles, subject marks, averages, and PASS/FAIL results.
+
+👉 [View OOP Module](https://github.com/husnianmahmood/python/tree/main/oop/student_management_system).
+
+---
+
+## 📊 Data Science (In Progress)
+
+This is the newest chapter in the journey. The `numpy/` folder currently holds structured, day-by-day practice as I learn:
+
+- **NumPy** — arrays, vectorized operations, indexing, broadcasting
+- **Pandas** *(planned)* — DataFrames, data cleaning, analysis
+- Related data science tooling *(planned)*
+
+This section will keep expanding as practice turns into full projects.
+
+👉 [View NumPy Practice](https://github.com/husnianmahmood/python/tree/main/numpy)
+
+---
+
+## 📈 Learning Progress
+
+| Module | Focus | Status |
+|---|---|---|
+| `python_fundamentals/` | Core syntax, functions, practice programs | 🟡 In Progress |
+| `oop/` | Classes, objects, OOP design | 🟡 In Progress |
+| `numpy/` | Arrays & numerical computing | 🟡 In Progress |
+| `pandas/` | Data analysis | ⏳ Planned |
+
+---
+
+## 🔮 Future Improvements
+
+- Continue adding practice programs and projects to `python_fundamentals/`
+- Expand `oop/` with more projects covering inheritance, polymorphism, and abstraction
+- Complete structured NumPy practice and move into NumPy-based projects
+- Begin a dedicated `pandas/` module
+- Add unit tests across existing projects
+- Keep every sub-README up to date as new content is added
+
+---
+
+## 📬 Get in Touch
+
+Feel free to explore the folders above, open an issue, or reach out if you'd like to chat about any of the projects here.
