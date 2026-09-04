@@ -1,75 +1,65 @@
 <div align="center">
 
-# 🐍 Python — Learning Journey
+# 🐍 Python — A Learning Journey
 
-### From Python Fundamentals to Data Science & AI Engineering
+**Documenting my evolution as a Python developer — from core fundamentals and Object-Oriented Programming to numerical computing and data analysis.**
 
-A structured and continuously evolving repository documenting my journey with **Python**, from programming fundamentals and Object-Oriented Programming to **NumPy, Pandas, data analysis, and eventually AI engineering**.
-
-<br>
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)
-[![OOP](https://img.shields.io/badge/OOP-6A5ACD?style=for-the-badge)](#-object-oriented-programming)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)](#-data-science)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)](#-data-science)
+[![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)
+[![Fundamentals](https://img.shields.io/badge/Topic-Fundamentals-4CAF50?style=for-the-badge)](#-python-fundamentals)
+[![OOP](https://img.shields.io/badge/Topic-OOP-6A5ACD?style=for-the-badge)](#-object-oriented-programming-oop)
+[![NumPy](https://img.shields.io/badge/Topic-NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)](#-data-science)
+[![Pandas](https://img.shields.io/badge/Currently_Learning-Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)](#-pandas--currently-learning)
 [![Status](https://img.shields.io/badge/Status-Actively%20Learning-orange?style=for-the-badge)](#-learning-progress)
 
 <br>
 
-**Fundamentals → OOP → NumPy → Pandas → Data Analysis → AI Engineering**
+[Welcome](#-welcome) •
+[Overview](#-overview) •
+[Repository Structure](#-repository-structure) •
+[Python Fundamentals](#-python-fundamentals) •
+[OOP](#-object-oriented-programming-oop) •
+[Data Science](#-data-science) •
+[Pandas](#-pandas--currently-learning) •
+[Learning Progress](#-learning-progress)
+
+---
 
 </div>
 
----
+## 👋 Welcome
 
-## 📌 About This Repository
+Thanks for stopping by!
 
-This repository documents my practical journey of learning **Python and its ecosystem**.
+This repository documents my personal journey as I learn and develop with **Python**.
 
-Rather than containing only completed projects, it includes the progression behind them:
+Each folder represents a stage of my learning process — from Python fundamentals and programming practice to Object-Oriented Programming, and then into numerical computing and data analysis.
 
-* 📚 Concepts and fundamentals
-* 🧠 Programming practice
-* 🧩 Object-Oriented Programming
-* 🛠️ Console-based projects
-* 📊 Numerical and data analysis
-* 📝 Documentation and learning notes
-* 🚀 Gradually increasing project complexity
+This repository contains not only projects, but also the practice, experimentation, and progression that helped me build my understanding of Python.
 
-The purpose is to build a strong programming foundation before moving deeper into **Data Science, Machine Learning, and AI Engineering**.
+Every major section has its own dedicated `README.md` with additional details about the concepts, programs, and projects included in that module.
 
 ---
 
-## 🗺️ Learning Roadmap
+## 📖 Overview
 
-My Python learning journey is organized into progressive stages:
+The repository is organized into three main learning stages:
 
-```text
-Python Fundamentals
-        │
-        ▼
-Object-Oriented Programming
-        │
-        ▼
-NumPy
-        │
-        ▼
-Pandas
-        │
-        ▼
-Data Analysis & Visualization
-        │
-        ▼
-Machine Learning
-        │
-        ▼
-AI Engineering
-        │
-        ▼
-Agentic AI
-```
+1. **Python Fundamentals** — Core Python syntax, programming concepts, logical practice, and beginner projects.
+2. **Object-Oriented Programming (OOP)** — Classes, objects, abstraction, encapsulation, inheritance, polymorphism, and practical console applications.
+3. **Data Science** — NumPy practice, numerical computing, vectorized operations, statistical analysis, and practical financial analysis.
 
-Each stage builds upon the previous one rather than being studied independently.
+The Data Science section is currently progressing from **NumPy toward Pandas**, with Pandas being the current area of learning.
+
+### 🎯 Main Focus
+
+* Python programming fundamentals
+* Object-Oriented Programming
+* Logical thinking and problem solving
+* Code organization
+* Reusable program design
+* Numerical computing
+* Data analysis
+* Git and GitHub workflow
 
 ---
 
@@ -128,293 +118,189 @@ python/
 │           ├── README.md
 │           └── main.py
 │
-├── pandas/
-│   └── ...
-│
 ├── .gitignore
 └── README.md
 ```
 
-> Each major module and project contains its own `README.md` with detailed explanations, concepts, features, and instructions.
+> Each major module, practice section, and project has its own `README.md` containing more specific information.
 
 ---
 
 # 🐍 Python Fundamentals
 
-The `python_fundamentals/` module establishes the core programming foundation required for everything that follows.
+The `python_fundamentals/` folder contains the core programming foundation of this repository.
 
-### Topics Covered
+### 📚 Topics Covered
 
-* Variables and data types
+* Variables
+* Data types
 * Operators
 * Conditional statements
 * Loops
 * Functions
-* Parameters and return values
+* Parameters
+* Return values
 * Scope
 * Lists
+* Dictionaries
 * Tuples
 * Sets
-* Dictionaries
-* Strings
-* Exception handling
-* Basic problem solving
-* File handling
-* Introductory OOP concepts
+* String manipulation
+* Error handling
 
-### 🧪 Practice
+### 🧪 Sequential Practice
 
-The `practice/` directory contains sequential programs designed to strengthen Python fundamentals through hands-on implementation.
+The `practice/` directory contains sequential Python programs designed to strengthen programming fundamentals.
 
-The exercises gradually introduce concepts such as:
+The practice also introduces basic Object-Oriented Programming concepts, including:
 
-* Classes and objects
 * Encapsulation
 * Private attributes
-* Getters and setters
-* `@property`
-* Basic validation logic
+* Custom setter validation
+* `@property` decorators
 
-### 🛠️ Projects
+### 🛠️ Mini-Projects
 
-The `projects/` directory contains small console-based applications built using the concepts learned throughout the fundamentals module.
+The `projects/` directory contains practical console-based applications:
 
 | Project                           | Description                                 |
 | --------------------------------- | ------------------------------------------- |
-| 🏦 Bank Management System         | Basic banking operations using OOP          |
-| 🎬 Movie Ticket Management System | Ticket booking and management               |
-| 🎓 Student Management System      | Student information and academic management |
+| 🏦 Bank Management System         | Banking system using OOP concepts           |
+| 🎬 Movie Ticket Management System | Real-time ticket booking system             |
+| 🎓 Student Management System      | Interactive student grade management system |
 
-👉 **[Explore Python Fundamentals](python_fundamentals/)**
+👉 **[View Python Fundamentals](python_fundamentals/)**
 
 ---
 
-# 🧠 Object-Oriented Programming
+# 🧠 Object-Oriented Programming (OOP)
 
-The `oop/` module focuses specifically on designing programs using **Object-Oriented Programming principles**.
+The `oop/` folder focuses specifically on Object-Oriented Programming and applying OOP principles to practical software.
 
-The goal is to move from writing simple scripts toward writing programs that are better organized, reusable, and easier to maintain.
-
-### Topics Covered
+### 📚 Topics Covered
 
 * Classes and Objects
 * Constructors — `__init__`
-* Instance attributes and methods
 * Encapsulation
-* Private attributes
-* Properties
-* Abstraction
-* Abstract Base Classes
+* Access Modifiers
+* Abstract Base Classes (ABC)
+* Interfaces
 * Inheritance
-* Method overriding
-* Polymorphism
-* Runtime polymorphism
-* `super()`
-* Method Resolution Order (MRO)
-* File handling
-* Code organization
+* Method Overriding
+* Dynamic Runtime Polymorphism
+* Code Organization
+* File Handling
 
-### ⭐ Featured Project
+### 🎓 Featured Project
 
 **Student Management System**
 
-A more structured console application designed to apply OOP concepts in a practical environment.
+A comprehensive console application designed to apply OOP concepts in a practical environment.
 
-Features include:
+The system manages:
 
-* Student profile management
-* Subject and marks management
-* Percentage calculation
+* Student profiles
+* Subject marks
+* Percentage calculations
 * Academic status evaluation
-* Object-oriented program structure
 
-👉 **[Explore OOP](oop/)**
+👉 **[View OOP Module](oop/)**
 
 ---
 
 # 📊 Data Science
 
-The `numpy/` module marks the beginning of my transition from general Python programming toward **Data Science and AI**.
+The `numpy/` folder represents the Data Science portion of this learning journey.
+
+The current work focuses on **NumPy**, numerical computing, array manipulation, and practical data analysis.
 
 ## 🔢 NumPy
 
-NumPy is being used to develop a strong understanding of numerical computing and array-based operations.
+### Day 1
 
-### Topics Covered
-
-**Day 1**
-
-* N-dimensional arrays
-* Array creation
-* Shape and dimensions
+* N-dimensional array creation
 * Array metadata
-* Indexing
-* Slicing
-* 2D and 3D arrays
+* Shape inspection
+* 2D and 3D matrix slicing
 
-**Day 2**
+### Day 2
 
 * `arange()`
 * `linspace()`
 * `zeros()`
 * `ones()`
 * `full()`
-* Random number generation
-* Random sampling
+* Random sampling utilities
 
-**Day 3**
+### Day 3
 
-* Vectorized operations
-* Arithmetic operations
-* Aggregations
+* Vectorized arithmetic
+* Aggregation functions
 * `axis=0`
 * `axis=1`
-* Reshaping
-* Boolean masking
-* Conditional filtering
+* Dynamic reshaping
+* Boolean filtering
 
 ### 📈 Featured Project
 
 **Student Monthly Expense Analyzer**
 
-A practical NumPy-based project that analyzes monthly student expenses and generates useful financial insights.
+A numerical financial analyzer that works with student expense data to calculate:
 
-The project applies:
+* Spending statistics
+* Monthly budget breakdowns
+* Financial analysis
+* Automated advisory reports
 
-* NumPy arrays
-* Vectorized calculations
-* Aggregation functions
-* Boolean filtering
-* Statistical calculations
-* Budget analysis
-* Automated recommendations
-
-👉 **[Explore NumPy](numpy/)**
+👉 **[View NumPy Module](numpy/)**
 
 ---
 
-# 🐼 Pandas
+# 🐼 Pandas — Currently Learning
 
-The `pandas/` module is the next stage of my Data Science learning path.
+The Data Science section is now progressing toward **Pandas**.
 
-The focus is on understanding how real-world datasets are loaded, explored, cleaned, transformed, and analyzed.
+Pandas is the current area of learning, with the focus on developing an understanding of working with structured data and data analysis.
 
-### Planned Topics
-
-* Series
-* DataFrames
-* Reading CSV files
-* Dataset inspection
-* Selecting rows and columns
-* Filtering
-* Missing values
-* Data cleaning
-* Sorting
-* Grouping
-* Aggregation
-* Data transformation
-* Basic Exploratory Data Analysis (EDA)
-
-👉 **[Explore Pandas](pandas/)**
+> 🚧 **Pandas is currently in progress.**
 
 ---
 
 # 📈 Learning Progress
 
-| Module                 | Focus                                                           |     Status     |
-| ---------------------- | --------------------------------------------------------------- | :------------: |
-| 🐍 Python Fundamentals | Core syntax, functions, data structures & practice              |  🟢 Completed  |
-| 🧠 OOP                 | Classes, inheritance, abstraction, encapsulation & polymorphism |  🟢 Completed  |
-| 🔢 NumPy               | Arrays, vectorization, aggregation & numerical analysis         |  🟢 Completed  |
-| 🐼 Pandas              | DataFrames, cleaning & dataset analysis                         | 🟡 In Progress |
-| 📊 Data Analysis       | EDA & visualization                                             |   ⏳ Upcoming   |
-| 🤖 Machine Learning    | ML fundamentals & practical models                              |   ⏳ Upcoming   |
-| 🧠 AI Engineering      | AI systems, APIs & frameworks                                   |    ⏳ Future    |
-| 🤖 Agentic AI          | AI agents and autonomous workflows                              |    ⏳ Future    |
-
----
-
-# 🎯 Current Focus
-
-My current focus is strengthening my **Data Science foundation** before moving into Machine Learning and AI Engineering.
-
-```text
-Python
-  ↓
-NumPy
-  ↓
-Pandas
-  ↓
-Matplotlib
-  ↓
-Data Analysis
-  ↓
-Machine Learning
-  ↓
-AI Engineering
-```
-
-The goal is not simply to learn libraries, but to understand **why and when each tool is used**.
-
----
-
-# 🚀 Future Goals
-
-As this repository grows, I plan to add:
-
-* Advanced Python concepts
-* More OOP projects
-* Pandas projects
-* Data visualization with Matplotlib
-* Exploratory Data Analysis projects
-* Real-world datasets
-* JSON and CSV data processing
-* Unit testing with `pytest`
-* Machine Learning projects
-* API integration
-* AI application development
-* AI engineering frameworks
-* Agentic AI projects
-
----
-
-# 🧩 Learning Philosophy
-
-> **Learn → Practice → Build → Document → Improve**
-
-I believe programming is best learned by continuously applying concepts to real problems.
-
-Therefore, this repository intentionally contains both **practice programs and projects**.
-
-The progression is more important than simply collecting completed code.
+| Module                 | Focus                                                               |       Status       |
+| ---------------------- | ------------------------------------------------------------------- | :----------------: |
+| `python_fundamentals/` | Core syntax, functions, practice programs & mini-projects           |   🟢 **Covered**   |
+| `oop/`                 | Classes, objects, abstraction, encapsulation & polymorphism         |   🟢 **Covered**   |
+| `numpy/`               | N-D arrays, vectorized computing, aggregations & financial analysis |   🟢 **Covered**   |
+| `pandas/`              | DataFrames, data cleaning & dataset transformations                 | 🟡 **In Progress** |
 
 ---
 
 # 📚 Documentation
 
-Each major section contains its own documentation.
+Each section of the repository has dedicated documentation to keep the project organized.
 
-| Documentation                            | Purpose                                |
-| ---------------------------------------- | -------------------------------------- |
-| `README.md`                              | Complete repository overview           |
-| `python_fundamentals/README.md`          | Python fundamentals documentation      |
-| `python_fundamentals/practice/README.md` | Practice program documentation         |
-| `python_fundamentals/projects/README.md` | Fundamentals project documentation     |
-| `oop/README.md`                          | OOP concepts and project documentation |
-| `numpy/README.md`                        | NumPy learning documentation           |
-| `numpy/practice/README.md`               | NumPy practice documentation           |
-| `numpy/projects/.../README.md`           | Detailed project documentation         |
-| `pandas/README.md`                       | Pandas learning documentation          |
+| README                                      | Purpose                                |
+| ------------------------------------------- | -------------------------------------- |
+| `README.md`                                 | Complete repository overview           |
+| `python_fundamentals/README.md`             | Fundamentals module overview           |
+| `python_fundamentals/practice/README.md`    | Practice programs documentation        |
+| `python_fundamentals/projects/README.md`    | Fundamentals projects overview         |
+| `oop/README.md`                             | OOP concepts and project documentation |
+| `numpy/README.md`                           | NumPy learning documentation           |
+| `numpy/practice/README.md`                  | NumPy practice documentation           |
+| `numpy/projects/finance_analyzer/README.md` | Finance analyzer project documentation |
 
 ---
 
 # 🛠️ Technologies & Tools
 
-### Programming
+### Programming Language
 
 * Python
 
-### Python Libraries
+### Libraries
 
 * NumPy
 * Pandas
@@ -426,28 +312,18 @@ Each major section contains its own documentation.
 * GitHub
 * VS Code
 
-### Future Technologies
-
-* Scikit-learn
-* APIs
-* Machine Learning frameworks
-* AI Engineering frameworks
-* Agentic AI tools
-
 ---
 
 # 📬 Get in Touch
 
-I'm continuously learning, building, and improving.
-
-If you find something interesting in this repository, feel free to explore the projects, review the code, or open an issue with suggestions.
+Feel free to explore the repository, review the projects, and follow the progression of my Python learning journey.
 
 ---
 
 <div align="center">
 
-### ⭐ Thanks for visiting my Python learning journey!
+### ⭐ Thanks for visiting!
 
-**Learning today. Building tomorrow.**
+**Learning • Practicing • Building • Improving**
 
 </div>
