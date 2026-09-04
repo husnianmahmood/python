@@ -1,0 +1,15 @@
+class Animal:
+  def speak(self):
+    print("Some Sound")
+class Dog(Animal):
+  def speak(self):
+    print("Bark")
+class Cat(Animal):
+  def speak(self):
+    print("Meow")
+class Lion(Animal):
+  def speak(self):
+    print("Roar")
+animals = [Dog(), Cat(), Lion()]
+for animal in animals:
+  animal.speak()
