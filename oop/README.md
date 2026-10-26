@@ -46,6 +46,8 @@ The core deliverable of this module is an interactive, fully decoupled **Student
 
 ```text
 oop/
+├── student-crud-project/          # New student CRUD project
 └── student_management_system/
-    ├── README.md       # Project specific documentation & requirements
-    └── main.py         # Complete application entry point & class logic
+    ├── README.md                  # Project-specific documentation & requirements
+    └── main.py                    # Complete application entry point & class logic
+
